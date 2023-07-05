@@ -88,7 +88,7 @@ pipeline {
                 axes {
                     axis {
                         name 'TEST_PARAMS'
-                        values 'sequelize_test ./test.sh'
+                        values 'sequelize_test/sequelize_v6_test ./test.sh'
                     }
                     axis {
                         name 'TEST_STORE'
